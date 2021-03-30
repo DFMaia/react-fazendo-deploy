@@ -1,6 +1,20 @@
 # Sobre esse projeto: 
 > ### Se você está aqui para consultar React  👇:
 > - Pacotes instalados `react-router-dom`, `axios` e `react-toastify`.
+> - A motivação é criar um build e subir o projeto. 
+> - Execute o comando `yarn run build`.
+> - Como o projeto contem rotas com o `react-router-dom` é preciso fazer os seguintes passos adicionais: 
+> > - Na pasta `public` crie um arquivo com o nome `_redirects` e insira o seguinte parâmetro: `/* /index.html 200`.
+> > - Execute o comando novamente `yarn run build`.
+> - Utilizei o site [Netlify](https://app.netlify.com/) para dar o deploy no projeto. Ele é gratuito e associei minha conta GitHub.
+> É possível só arrastar o projeto na página do Netlify. Mas fiz por linhas de comando. 
+> > - Execute o comando `npm install -g netlify-cli` para instalar a dependência do site. 
+> > - Vá até o diretório onde o projeto se encontra e no `CMD` digite: `netlify deploy`
+> 
+> O `CMD` retornará com uma série de comandos para escolher. O nome do site, o time, etc. Essas opções deverão ser escolhidas com as setas do teclado. 
+> Atenção, existe um momento em que ele pergunta qual é o arquivo que queremos subir. Este deve ser o `./build`
+> Por fim, o `CMD` mostrará o comando para subir o site em produção. Antes disso ele subiu um draft. 
+> O `CMD` perguntará qual o arquivo, e você deve informar novamente que é o `./build`
 > 
 > ### Se você está aqui para estudar  👇:
 > 
@@ -18,7 +32,7 @@
 > > - [Projeto Filmaria](https://github.com/DFMaia/react-filmaria)
 > 
 > > _**Próximo Projeto:**_
-> > - ?
+> > - [React Firebase](https://github.com/DFMaia/react-firebase)
 
 ### Sobre os links:
 
